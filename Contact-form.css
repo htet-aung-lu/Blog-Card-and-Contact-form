@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Roboto:wght@400;500&display=swap'); 
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root {
+  --shadow-color: 285deg 34% 49%;}
+body{
+    background-color:#F3F3FB ;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    
+
+}
+.card{
+    width:400px;
+    min-height: 530px;
+    background-color: red;
+    background-color: #FFFFFF;
+    border-radius:16px;
+    box-shadow:   0.3px 0.6px 0.8px hsl(var(--shadow-color) / 0.38),
+    1.1px 2.2px 2.9px -0.7px hsl(var(--shadow-color) / 0.4),
+    2.8px 5.3px 7px -1.5px hsl(var(--shadow-color) / 0.42),
+    6.6px 12.7px 16.6px -2.2px hsl(var(--shadow-color) / 0.44);
+    position: relative;
+    
+    
+}
+i{
+    font-size: 20px;
+    color: #B4B1BC;
+    border:1px solid;
+    width:40px;
+    height:40px;
+    border-radius: 50%;
+    padding: 8px;
+    position: absolute;
+    top:10px;
+    right:12px;
+    cursor: pointer;
+}
+i:active{
+    background-color: #f8f6fd;
+}
+.container{
+    text-align: center;
+    padding:50px 20px;
+}
+.container h1{
+    font-size: 24px;
+    margin-bottom: 30px;
+    font-weight: 500;
+   font-family: 'Acme', sans-serif;
+  
+
+}
+.container input{
+    width:300px;
+    height:40px;
+    margin-bottom: 20px;
+    border: none;
+    border-bottom: 1px solid rgb(170, 168, 168);
+   
+}
+.container select{
+    width:300px;
+    height: 40px;
+    border: none;
+    font-weight:bold ;
+    border-bottom: 1px solid rgb(170, 168, 168);
+    margin-bottom:20px ;
+}
+.container textarea{
+    width:320px;
+    height:100px;
+    padding:20px 0px 0px 20px;
+    border-radius: 5px;
+    border:1px solid rgb(170, 168, 168);
+    margin-bottom: 20px;
+}
+button{
+    width:300px;
+    height:40px;
+    border: none;
+    border-radius: 20px;
+    color:#FFFFFF;
+    background-color:#171736 ;
+    cursor: pointer;
+}
+button:hover{
+    background-color:#515198;
+}
+button:active{
+     background-color:#bbbbdc;
+}
